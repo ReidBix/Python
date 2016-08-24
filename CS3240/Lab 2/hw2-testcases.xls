@@ -1,0 +1,56 @@
+"HW2 Test Documentation, CS3240 Python Queue Class"	
+	
+Name:	Reid Bixler
+Email ID:	rmb3yz
+	
+Test ID	Q1
+Description	Test add() from an empty Queue and check len() == 1
+Inputs/State	Queue has no items.
+Expected Output	Length = 1
+	
+	
+Test ID	Q2
+Description	Test add() from a Queue of size 1 and check len() == 2
+Inputs/State	Queue has 1 item. [1]
+"No exceptions raised, function returns None"	Length = 2
+	
+	
+Test ID	Q3
+Description	Test add() from a Queue of size 2 and check len() == 3
+Inputs/State	"Queue has 2 items. [1,2]"
+Expected Output	Length = 3
+	
+Test ID	Q4
+Description	Test add() from a Queue of size 3 and check len() == 4
+Inputs/State	"Queue has 3 items. [1,2,3]"
+Expected Output	Length = 3
+	
+Test ID	Q5
+Description	Test add() from a Queue of size 4 and check len() == 5
+Inputs/State	"Queue has 4 items. [1,2,3,4]"
+Expected Output	Length = 4
+	
+Test ID	Q6
+Description	Test that the set contained is what was added
+Inputs/State	"Queue has 5 items. [1,2,3,4,5]"
+Expected Output	No exceptions.
+	
+Test ID	Q7
+Description	Test that str() works on the set
+Inputs/State	"Queue has 5 items. [1,2,3,4,5]"
+Expected Output	No exceptions.
+	
+Test ID	Q8
+Description	"Test that duplicates cannot be added with add(). Use len(), .set, and str()"
+Inputs/State	"Queue has 5 items. [1,2,3,4,5]. Add 1"
+Expected Output	"Length = 5. Set = [1,2,3,4,5]. String = ""<1, 2, 3, 4, 5>"". No Exceptions"
+	
+Test ID	Q9
+Description	"Test that duplicates cannot be added with add(). Use len(), .set, and str()"
+Inputs/State	"Queue has 5 items. [1,2,3,4,5]. Add 2"
+Expected Output	"Length = 5. Set = [1,2,3,4,5]. String = ""<1, 2, 3, 4, 5>"". No Exceptions"
+	
+Test ID	Q10
+Description	"Test that negatives can be added to a queue, also check if can add after other method uses"
+Inputs/State	"Queue has 5 items. [1,2,3,4,5]. Add -1"
+Expected Output	"Length = 6. Set = [1,2,3,4,5,-1]. String = ""<1, 2, 3, 4, 5, -1>"". No Exceptions"

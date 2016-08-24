@@ -1,0 +1,1 @@
+["C:\\Users\\Reid\\PycharmProjects\\CS 3240\\CS 3240\\Lab 3", {"lab3_part1.py": 37, "lab3_part3.py": 23, "lab3_part2.py": 23, "file_info.txt": 1}]
